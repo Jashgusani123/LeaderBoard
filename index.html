@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>LeaderBoard</h1>
+        <form id="form" class="form">
+            <input type="text" placeholder="First Name" id="fn" class="input">
+            <input type="text" placeholder="Last Name" id="ln" class="input">
+            <input type="text" placeholder="Country"  id="cn" class="input">
+            <input type="text" placeholder="Player Score" id="sc" class="input">
+            <button id="form_btn" class="form_btn">Add Player</button>
+        </form>
+        <div class="error">
+            <p id="error1">Plz Fill All...</p>
+        </div>
+        <div class="maindiv" id="maindiv">
+            <div class="div" >
+                <div class="first">
+                    <p id="name">Jash Gusani</p>
+                    <p id="data">JAN 2023: 09:24:44</p>
+                </div>
+                <div class="second">
+                    <p id="contri">INDIA</p>
+                </div>
+                <div class="score">
+                    <p id="value">105</p>
+                </div>
+                <div class="btn" id="btn">
+                    <button id="delete">&#9249;</button>
+                    <button id="in">+5</button>
+                    <button id="de">-5</button>
+                </div>
+            </div>
+            <div class="div">
+                <div class="first">
+                    <p id="name">Virat Kohli</p>
+                    <p d="date">MAY 2023: 11:30:44</p>
+                </div>
+                <div class="second">
+                    <p id="contri">INDIA</p>
+                </div>
+                <div class="score">
+                    <p id="value">85</p>
+                </div>
+                <div class="btn">
+                    <button id="delete">&#9249;</button>
+                    <button id="in">+5</button>
+                    <button id="de">-5</button>
+                </div>
+            </div>
+
+            <div class="div">
+                <div class="first">
+                    <p id="name">Rohit Sharma</p>
+                    <p id="data">FEB 2022: 10:24:04</p>
+                </div>
+                <div class="second">
+                    <p id="contri">INDIA</p>
+                </div>
+                <div class="score">
+                    <p id="value">75</p>
+                </div>
+                <div class="btn">
+                    <button id="delete">&#9249;</button>
+                    <button id="in">+5</button>
+                    <button id="de">-5</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
